@@ -1,6 +1,13 @@
-export default {
-  extends: ['eslint:recommended', 'plugin:prettier/recommended'],
-  rules: {
-    'prettier/prettier': ['error'],
+import eslintPluginPrettier from 'eslint-plugin-prettier';
+
+export default [
+  {
+    files: ['**/*.js'],
+    rules: {
+      'prettier/prettier': ['error'],
+    },
+    plugins: {
+      prettier: eslintPluginPrettier,
+    },
   },
-};
+];
