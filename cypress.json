@@ -1,0 +1,7 @@
+{
+    "baseUrl": "https://example.com",
+    "viewportWidth": 1280,
+    "viewportHeight": 720,
+    "video": false,
+    "reporter": "spec"
+  }  
