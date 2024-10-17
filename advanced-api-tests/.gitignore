@@ -1,0 +1,14 @@
+# Node.js dependencies
+/node_modules/
+
+# Cypress output
+/cypress/screenshots/
+/cypress/videos/
+
+# Jest cache
+/coverage/
+/jest-cache/
+/jest-output/
+
+# Mac system files
+.DS_Store
